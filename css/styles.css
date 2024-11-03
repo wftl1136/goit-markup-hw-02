@@ -203,43 +203,41 @@ body {
     color: var(--footer-text-color, #F4F4FD); /* Використання CSS змінної для кольору тексту */
     letter-spacing: 0.02em; /* Відступи між літерами */
 }
-/* Другие стили */
-.custom_section_3 {
-    background-color: #F4F4FD; /* Фоновый цвет секции */
-    padding: 20px; /* Внутренние отступы секции */
-}
 
-.section_title {
-    font-size: 36px; /* Размер шрифта */
-    line-height: 1.11; /* Интерлиньяж */
-    text-align: center; /* Выравнивание текста */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
-    text-transform: capitalize; /* Стиль написания текста */
-    color: #2e2f42; /* Цвет текста */
-}
-
-.services_list {
-    list-style-type: none; /* Убираем маркеры списка */
-    padding: 0; /* Убираем отступы */
-}
-
-.service_item {
-    background-color: #FFFFFF; /* Фоновый цвет пунктов списка */
-    padding: 15px; /* Внутренние отступы для пунктов */
-    margin: 10px 0; /* Отступы между пунктами списка */
-}
-
-.service_header {
-    font-weight: 500; /* Жирность шрифта */
-    font-size: 20px; /* Размер шрифта */
-    line-height: 1.2; /* Интерлиньяж */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
-    color: #2e2f42; /* Цвет текста */
-}
-
-.service_description {
-    font-size: 16px; /* Размер шрифта для параграфов */
-    line-height: 1.5; /* Интерлиньяж */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
-    color: #434455; /* Цвет текста */
-}
+/* Фон для секції */
+.section-3 .background {
+    background-color: #F4F4FD;
+  }
+  
+  /* Стиль для великого заголовка секції */
+  .heading-large {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+  }
+  
+  /* Стиль для пунктів списку */
+  .list-item {
+    background-color: #FFFFFF;
+  }
+  
+  /* Стиль для заголовка пункту списку */
+  .heading-small {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+  
+  /* Стиль для параграфа */
+  .paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  
