@@ -205,12 +205,12 @@ body {
 }
 
 /* Фон для секції */
-.section-3 .background {
+.section-background {
     background-color: #F4F4FD;
   }
   
-  /* Стиль для великого заголовка секції */
-  .heading-large {
+  /* Стиль для великого заголовка */
+  .main-heading {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -225,7 +225,7 @@ body {
   }
   
   /* Стиль для заголовка пункту списку */
-  .heading-small {
+  .item-heading {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -234,7 +234,7 @@ body {
   }
   
   /* Стиль для параграфа */
-  .paragraph {
+  .item-paragraph {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
