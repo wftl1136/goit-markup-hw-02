@@ -131,10 +131,12 @@ body {
 
 /* Стиль для заголовка секции */
 .main-heading {
-    font-weight:500;/* Размер текста */
-    font-size: 20px; /* Пробел между строками */
-    line-height: 1.2; /* Выравнивание текста */
+    /* Размер текста */
+    font-size: 36px; /* Пробел между строками */
+    line-height: 1.11; /* Выравнивание текста */
     letter-spacing: 0.02em; /* Отступы между буквами */
+    text-align: center;
+    text-transform: capitalize;
     color: #2e2f42; /* Цвет текста */
 }
 
