@@ -99,44 +99,22 @@ body {
     background-color: #404bbf;
 }
 
-/* Секция привилегий */
-.custom_section {
-    background-color: #F4F4FD;
-    padding: 20px;
+
+/* Стилі для заголовків */
+.h3-custom {
+    font-weight: 500; /* Жирність шрифту */
+    font-size: 20px; /* Розмір шрифту */
+    line-height: 1.2; /* Простір між рядками */
+    letter-spacing: 0.02em; /* Відстань між літерами */
+    color: #2e2f42; /* Колір тексту */
 }
 
-.custom_header {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.privileges_list {
-    list-style-type: none;
-    padding: 0;
-}
-
-.privilege_item {
-    background-color: #FFFFFF;
-    padding: 15px;
-    margin: 10px 0;
-}
-
-.privilege_header {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.privilege_description {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+/* Стилі для параграфів */
+.p-custom {
+    font-size: 16px; /* Розмір тексту */
+    line-height: 1.5; /* Простір між рядками */
+    letter-spacing: 0.02em; /* Відстань між літерами */
+    color: #434455; /* Колір тексту */
 }
 
 
