@@ -140,6 +140,20 @@ body {
     color: #2e2f42; /* Цвет текста */
 }
 
+.name-icon {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2 ;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.name-work {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
 /* Стиль для пунктов списка */
 .our_service {
     list-style-type: none; /* Убираем маркеры списка */
@@ -195,6 +209,17 @@ body {
 .portfolio_list li {
     margin: 10px;
 }
+
+.banking_app_header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42 ;
+}
+
+
+
 
 /* Стили для футера */
 .footer_section {
