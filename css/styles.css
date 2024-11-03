@@ -104,6 +104,32 @@ body {
     color: #2e2f42; /* Цвет заголовка */
 }
 
+/* Стили для секции привилегий */
+.custom_section {
+    background-color: #F4F4FD; /* Фоновый цвет секции */
+    padding: 20px; /* Внутренние отступы секции */
+}
+
+.custom_header {
+    font-size: 36px; /* Размер текста заголовка */
+    line-height: 1.11; /* Пространство между строками */
+    text-align: center; /* Выравнивание текста по центру */
+    letter-spacing: 0.02em; /* Отступы между буквами */
+    text-transform: capitalize; /* Стиль написания текста */
+    color: #2e2f42; /* Цвет текста */
+}
+
+.privileges_list {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+}
+
+.privilege_item {
+    background-color: #FFFFFF; /* Фоновый цвет пунктов списка */
+    padding: 15px; /* Внутренние отступы для пунктов */
+    margin: 10px 0; /* Отступы между пунктами списка */
+}
+
 /* Стили для секции команды */
 .team_list {
     display: flex; /* Используем flexbox для отображения списка */
@@ -132,32 +158,7 @@ body {
     margin: 10px; /* Отступы вокруг элементов списка */
 }
 
-
-
-/* Новые стили для заголовков и параграфов */
-.custom-header {
-    font-size: 36px; /* Размер текста заголовка */
-    line-height: 1.11; /* Пространство между строками */
-    text-align: center; /* Выравнивание текста по центру */
-    letter-spacing: 0.02em; /* Отступы между буквами */
-    text-transform: capitalize; /* Стиль написания текста */
-    color: #2e2f42; /* Цвет текста */
-}
-
-.banking_app_header {
-    font-weight: 500; /* Жирность шрифта */
-    font-size: 20px; /* Размер шрифта заголовка */
-    line-height: 1.2; /* Пространство между строками */
-    letter-spacing: 0.02em; /* Отступы между буквами */
-    color: #2e2f42; /* Цвет текста */
-}
-
-.banking_app_desc {
-    font-size: 16px; /* Размер текста параграфа */
-    line-height: 1.5; /* Пространство между строками */
-    letter-spacing: 0.02em; /* Отступы между буквами */
-    color: #434455; /* Цвет текста */
-}
+/* Стили для футера (оставляем как есть) */
 .footer_section {
     background-color: #2e2f42; /* Фоновий колір футера */
     line-height: 1.5; /* Інтерліньяж для футера */
@@ -167,11 +168,11 @@ body {
     font-family: "Raleway", sans-serif; /* Шрифт логотипу */
     font-weight: 700; /* Жирність шрифту */
     font-size: 18px; /* Розмір шрифту */
-    line-height: 1.17; /* Інтерліньяж */
+    line-height: 1.17; /* Інтерлиньяж */
     letter-spacing: 0.03em; /* Відступи між літерами */
     text-transform: uppercase; /* Заголовні літери */
     color: #4d5ae5; /* Колір тексту логотипу */
-    text-decoration: none; /* Убираємо підкреслення */
+    text-decoration: none; /* Убираем подчеркивание */
 }
 
 .footer_logo_span {
