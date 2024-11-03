@@ -3,63 +3,243 @@
 @import url('https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css');
 
 body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-  margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+/* Стили для главной секции */
+.main_section {
+    background-color: #2e2f42;
+    padding: 20px;
+    text-align: center; /* Центрирование текста */
+}
+
+.main_title {
+    font-size: 56px; /* Размер заголовка */
+    line-height: 1.07; /* Интерлиньяж */
+    letter-spacing: 0.02em; /* Расстояние между буквами */
+    color: #ffffff; /* Цвет текста заголовка */
+}
+
+/* Стили для кнопки */
+.btn_main {
+    background-color: #4D5AE5; /* Цвет фона кнопки */
+    font-family: "Roboto", sans-serif; /* Наследование шрифта */
+    font-weight: 500; /* Жирность шрифта */
+    font-size: 16px; /* Размер шрифта */
+    line-height: 1.5; /* Интерлиньяж */
+    letter-spacing: 0.04em; /* Расстояние между буквами */
+    color: #ffffff; /* Цвет текста кнопки */
+    cursor: pointer; /* Стиль курсора */
+    border: none; /* Убираем стандартные рамки */
+    padding: 10px 20px; /* Отступы */
+}
+
+.btn_main:hover,
+.btn_main:focus {
+    background-color: #404BBF; /* Изменение цвета фона при наведении */
 }
 
 /* Стили для логотипа */
 .logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
 }
 
-.logo-span {
-  color: #2e2f42;
+.logo_span {
+    color: #2e2f42;
 }
 
 /* Стили для навигации */
-.nav-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.nav_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.nav-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
+.nav_link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #404bbf;
+.nav_link:hover,
+.nav_link:focus {
+    color: #404bbf;
 }
 
 /* Стили для контактной информации */
-.contact-info {
-  font-style: normal;
+.contact_info {
+    font-style: normal;
 }
 
-.contact-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
+.contact_link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
 }
 
-.contact-link:hover,
-.contact-link:focus {
-  color: #404bbf;
+.contact_link:hover,
+.contact_link:focus {
+    color: #404bbf;
 }
+
+/* Стили для секций */
+section {
+    margin: 20px 0; /* Отступы для секций */
+}
+
+/* Стили для заголовков */
+h1, h2, h3 {
+    font-family: "Raleway", sans-serif; /* Используем Raleway для заголовков */
+    color: #2e2f42; /* Цвет заголовков */
+}
+
+h1 {
+    font-size: 2em; /* Размер для заголовка первого уровня */
+}
+
+h2 {
+    font-size: 1.5em; /* Размер для заголовка второго уровня */
+}
+
+h3 {
+    font-size: 1.2em; /* Размер для заголовка третьего уровня */
+}
+
+/* Стили для третьей секции */
+.third_section {
+    background-color: #F4F4FD; /* Цвет фона секции */
+    padding: 20px; /* Отступы секции */
+    text-align: center; /* Центрирование текста */
+}
+
+/* Стили для заголовка в третьей секции */
+.third_title {
+    font-size: 36px; /* Размер заголовка */
+    line-height: 1.11; /* Интерлиньяж */
+    letter-spacing: 0.02em; /* Расстояние между буквами */
+    text-align: center; /* Выравнивание текста по центру */
+    text-transform: capitalize; /* Первые буквы заглавные */
+    color: #2e2f42; /* Цвет текста заголовка */
+}
+
+/* Стили для списка */
+.list_item {
+    background-color: #FFFFFF; /* Цвет фона для пунктов списка */
+    margin: 10px 0; /* Отступы между пунктами списка */
+    padding: 20px; /* Отступы внутри пункта списка */
+}
+
+/* Стили для заголовков пунктов списка */
+.list_item_title {
+    font-weight: 500; /* Жирность шрифта */
+    font-size: 20px; /* Размер шрифта */
+    line-height: 1.2; /* Интерлиньяж */
+    letter-spacing: 0.02em; /* Расстояние между буквами */
+    color: #2e2f42; /* Цвет текста заголовка */
+}
+
+/* Стили для параграфов в пунктах списка */
+.list_item_paragraph {
+    font-size: 16px; /* Размер шрифта */
+    line-height: 1.5; /* Интерлиньяж */
+    letter-spacing: 0.02em; /* Расстояние между буквами */
+    color: #434455; /* Цвет текста параграфа */
+}
+
+/* Стили для изображений команды */
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: inline-block; /* Расположение членов команды в ряд */
+    margin: 10px;
+    text-align: center; /* Центрирование текста в элементах списка */
+}
+
+img {
+    max-width: 100%; /* Ограничение ширины изображений */
+    height: auto; /* Автоматическая высота */
+}
+/* Стили для четвертой секции */
+.ourportfolio_section {
+    margin: 20px 0; /* Отступы для секции */
+}
+
+/* Стили для заголовка в четвертой секции */
+.fourth_title {
+    font-size: 36px; /* Размер заголовка */
+    line-height: 1.11; /* Интерлиньяж */
+    letter-spacing: 0.02em; /* Расстояние между буквами */
+    text-align: center; /* Выравнивание текста по центру */
+    text-transform: capitalize; /* Первые буквы заглавные */
+    color: #2e2f42; /* Цвет текста заголовка */
+}
+
+/* Стили для списка */
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: inline-block; /* Расположение членов списка в ряд */
+    margin: 10px; /* Отступы между элементами списка */
+    text-align: center; /* Центрирование текста в элементах списка */
+}
+
+img {
+    max-width: 100%; /* Ограничение ширины изображений */
+    height: auto; /* Автоматическая высота */
+}
+
+/* Стили для параграфов в пунктах списка */
+.list_item_paragraph {
+    font-size: 16px; /* Размер шрифта */
+    line-height: 1.5; /* Интерлиньяж */
+    letter-spacing: 0.02em; /* Расстояние между буквами */
+    color: #434455; /* Цвет текста параграфа */
+}
+
+/* Стили для футера */
+.footer_section {
+    text-align: center; /* Центрирование текста */
+    padding: 20px; /* Отступы */
+    background-color: #2e2f42; /* Фоновый цвет */
+}
+
+.logo_footer {
+    font-family: "Raleway", sans-serif; /* Шрифт логотипа */
+    font-weight: 700; /* Жирность шрифта */
+    font-size: 18px; /* Размер шрифта */
+    line-height: 1.17; /* Интерлиньяж */
+    letter-spacing: 0.03em; /* Расстояние между буквами */
+    text-transform: uppercase; /* Заглавные буквы */
+    color: #4d5ae5; /* Цвет текста логотипа */
+}
+
+.logo_span {
+    color: #f4f4fd; /* Цвет текста для span */
+}
+
+.footer_paragraph {
+    line-height: 1.5; /* Интерлиньяж */
+    color: var(--footer-text-color, #F4F4FD); /* Цвет текста параграфа, с использованием переменной CSS */
+    letter-spacing: 0.02em; /* Расстояние между буквами */
+}
+
