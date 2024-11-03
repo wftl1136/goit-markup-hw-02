@@ -141,17 +141,17 @@ body {
 }
 
 /* Стиль для пунктов списка */
-.list {
+.our_service {
     list-style-type: none; /* Убираем маркеры списка */
     padding: 0; /* Убираем отступы */
 }
 
-.list-item {
+.list_info{
     background-color: #FFFFFF; /* Цвет фона пунктов списка */
     
 }
 
-.item-headings {
+.heading_info {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -161,7 +161,7 @@ body {
 
 }
 /* Стиль для параграфа в пункте списка */
-.item-par{
+.paragraph_info{
     font-size: 16px; /* Размер текста */
     line-height: 1.5 ; /* Пространство между строками */
     letter-spacing: 0.02em; /* Расстояние между буквами */
