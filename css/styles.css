@@ -101,7 +101,7 @@ body {
 
 
 /* Стилі для заголовків */
-.custom-header {
+.h3-custom {
     font-weight: 500; /* Жирність шрифту */
     font-size: 20px; /* Розмір шрифту */
     line-height: 1.2; /* Простір між рядками */
@@ -110,7 +110,7 @@ body {
 }
 
 /* Стилі для параграфів */
-.custom-paragraph {
+.p-custom {
     font-size: 16px; /* Розмір тексту */
     line-height: 1.5; /* Простір між рядками */
     letter-spacing: 0.02em; /* Відстань між літерами */
