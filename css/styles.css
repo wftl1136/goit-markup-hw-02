@@ -121,6 +121,13 @@ body {
     letter-spacing: 0.02em; /* Расстояние между буквами */
     color: #2e2f42; /* Цвет текста */
 }
+.another_header {font-weight: 500; /* Жирность шрифта */
+    font-size: 20px; /* Размер шрифта */
+    line-height: 1.2; /* Интерлиньяж */
+    letter-spacing: 0.02em; /* Расстояние между буквами */
+    color: #2e2f42; /* Цвет текста */
+}
+
 
 .privileges_list {
     list-style-type: none; /* Убираем маркеры списка */
