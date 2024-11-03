@@ -159,7 +159,27 @@ body {
     color: #434455; /* Цвет текста */
 }
 .footer_section {
-    line-height: 1.5; /* Интерлиньяж для определения пространства между строками */
-    color: var(--footer-text-color, #F4F4FD); /* Использование CSS переменной для цвета текста */
-    letter-spacing: 0.02em; /* Отступы между буквами */
+    background-color: #2e2f42; /* Фоновий колір футера */
+    line-height: 1.5; /* Інтерліньяж для футера */
+}
+
+.footer_logo {
+    font-family: "Raleway", sans-serif; /* Шрифт логотипу */
+    font-weight: 700; /* Жирність шрифту */
+    font-size: 18px; /* Розмір шрифту */
+    line-height: 1.17; /* Інтерліньяж */
+    letter-spacing: 0.03em; /* Відступи між літерами */
+    text-transform: uppercase; /* Заголовні літери */
+    color: #4d5ae5; /* Колір тексту логотипу */
+    text-decoration: none; /* Убираємо підкреслення */
+}
+
+.footer_logo_span {
+    color: #f4f4fd; /* Колір тексту для span в логотипі */
+}
+
+.footer_description {
+    line-height: 1.5; /* Інтерліньяж для параграфу */
+    color: var(--footer-text-color, #F4F4FD); /* Використання CSS змінної для кольору тексту */
+    letter-spacing: 0.02em; /* Відступи між літерами */
 }
