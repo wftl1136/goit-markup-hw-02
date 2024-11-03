@@ -235,44 +235,48 @@ img {
     max-width: 100%; /* Ограничение ширины изображений */
     height: auto; /* Автоматическая высота */
 }
-/* Стили для четвертой секции */
-.ourportfolio_section {
-    margin: 20px 0; /* Отступы для секции */
-}
-
-/* Стили для заголовка в четвертой секции */
+/* Styles for the fourth section header */
 .fourth_title {
-    font-size: 36px; /* Размер заголовка */
-    line-height: 1.11; /* Интерлиньяж */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
-    text-align: center; /* Выравнивание текста по центру */
-    text-transform: capitalize; /* Первые буквы заглавные */
-    color: #2e2f42; /* Цвет текста заголовка */
+    font-size: 36px; /* Font size */
+    line-height: 1.11; /* Line height */
+    text-align: center; /* Center text */
+    letter-spacing: 0.02em; /* Letter spacing */
+    text-transform: capitalize; /* Capitalize text */
+    color: #2e2f42; /* Text color */
 }
 
-/* Стили для списка */
+/* Styles for portfolio titles */
+.portfolio_title {
+    font-weight: 500; /* Font weight */
+    font-size: 20px; /* Font size */
+    line-height: 1.2; /* Line height */
+    letter-spacing: 0.02em; /* Letter spacing */
+    color: #2e2f42; /* Text color */
+}
+
+/* Styles for portfolio paragraphs */
+.portfolio_paragraph {
+    font-size: 16px; /* Font size */
+    line-height: 1.5; /* Line height */
+    letter-spacing: 0.02em; /* Letter spacing */
+    color: #434455; /* Text color */
+}
+
+/* General list styles */
 ul {
     padding: 0;
     list-style: none;
 }
 
 li {
-    display: inline-block; /* Расположение членов списка в ряд */
-    margin: 10px; /* Отступы между элементами списка */
-    text-align: center; /* Центрирование текста в элементах списка */
+    display: inline-block; /* Align items in a row */
+    margin: 10px; /* Spacing between items */
+    text-align: center; /* Center text */
 }
 
 img {
-    max-width: 100%; /* Ограничение ширины изображений */
-    height: auto; /* Автоматическая высота */
-}
-
-/* Стили для параграфов в пунктах списка */
-.list_item_paragraph {
-    font-size: 16px; /* Размер шрифта */
-    line-height: 1.5; /* Интерлиньяж */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
-    color: #434455; /* Цвет текста параграфа */
+    max-width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /* Стили для футера */
