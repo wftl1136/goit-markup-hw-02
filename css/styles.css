@@ -1,11 +1,10 @@
-/* Подключение шрифтов и сброс стилей */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css');
 
-/* Стили для шапки */
 .header_section {
     background-color: #2e2f42;
-    padding: 20px;
+    margin: 0;
+    text-align: center;
 }
 
 .logo {
@@ -23,10 +22,11 @@
     color: #2e2f42;
 }
 
-/* Стили навигации */
 .nav_list {
     list-style-type: none;
+    margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .nav_link {
@@ -42,9 +42,9 @@
     color: #404bbf;
 }
 
-/* Стили для контактной информации */
 .contact_info {
     font-style: normal;
+    text-align: center;
 }
 
 .contact_link {
@@ -60,17 +60,15 @@
     color: #404bbf;
 }
 
-/* Основные стили */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
 
-/* Главная секция */
 .main_section {
     background-color: #2e2f42;
-    padding: 20px;
+    margin: 0;
     text-align: center;
 }
 
@@ -81,12 +79,11 @@ body {
     color: #ffffff;
 }
 
-/* Кнопка заказа */
 .main_button {
     background-color: #4d5ae5;
     color: #ffffff;
     border: none;
-    padding: 15px 30px;
+    margin: 15px 0;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -98,97 +95,65 @@ body {
 .main_button:focus {
     background-color: #404bbf;
 }
-.custom_header {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:  #2e2f42; 
-}
+
+.custom_header,
 .privilege_header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:  #2e2f42; 
+    color: #2e2f42;
 }
+
 .privilege_description {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-/* Основные стили */
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #ffffff;
-}
 
-/* Стили для секции */
 .section-background {
-    background-color: #F4F4FD; /* Цвет фона секции */
-    padding: 20px; /* Отступы для секции */
+    background-color: #F4F4FD;
+    margin: 0;
 }
 
-/* Стиль для заголовка секции */
 .main-heading {
-    /* Размер текста */
-    font-size: 36px; /* Пробел между строками */
-    line-height: 1.11; /* Выравнивание текста */
-    letter-spacing: 0.02em; /* Отступы между буквами */
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42; /* Цвет текста */
-}
-
-.team-h {
-    font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
-}
-.team-text{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:  #434455 ;
-
-}
-.our-portfolio {
     font-size: 36px;
-    line-height: 1.11 ;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-}
-
-.icon {
-    width: 360;
-}
-
-.name-icon {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2 ;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-.name-work {
+.team-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#434455;
-}
-/* Стиль для пунктов списка */
-.our_service {
-    list-style-type: none; /* Убираем маркеры списка */
-    padding: 0; /* Убираем отступы */
+    color: #434455;
 }
 
-.list_info{
-    background-color: #FFFFFF; /* Цвет фона пунктов списка */
-    
+.our-portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.our_service {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list_info {
+    background-color: #FFFFFF;
+    margin: 10px 0;
+    text-align: left;
 }
 
 .heading_info {
@@ -197,79 +162,34 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-
-
-}
-/* Стиль для параграфа в пункте списка */
-.paragraph_info{
-    font-size: 16px; /* Размер текста */
-    line-height: 1.5 ; /* Пространство между строками */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
-    color: #434455; /* Цвет текста */
 }
 
-/* Стили для секции команды */
-.team_list {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    flex-wrap: wrap;
-}
-
-.team_list li {
-    text-align: center;
-    margin: 10px;
-}
-
-/* Стили для портфолио */
-.ourportfolio_section {
-    padding: 20px;
-}
-
-.portfolio_list {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.portfolio_list li {
-    margin: 10px;
-}
-
-.banking_app_header {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+.paragraph_info {
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42 ;
 }
 
-
-
-
-/* Стили для футера */
 .footer_section {
     background-color: #2e2f42;
-    line-height: 1.5;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
 }
 
 .footer_logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .footer_logo_span {
-    color: #f4f4fd;
+    color: #ffffff;
 }
 
 .footer_description {
+    font-size: 16px;
     line-height: 1.5;
-    color: var(--footer-text-color, #F4F4FD);
-    letter-spacing: 0.02em;
+    color: #ffffff;
 }
