@@ -132,13 +132,7 @@ body {
     margin: 10px; /* Отступы вокруг элементов списка */
 }
 
-/* Стили для подвала */
-.footer_section {
-    background-color: #2e2f42; /* Фоновый цвет подвала */
-    color: #ffffff; /* Цвет текста подвала */
-    padding: 20px; /* Отступы */
-    text-align: center; /* Центрирование текста */
-}
+
 
 /* Новые стили для заголовков и параграфов */
 .custom-header {
@@ -164,7 +158,7 @@ body {
     letter-spacing: 0.02em; /* Отступы между буквами */
     color: #434455; /* Цвет текста */
 }
-.footer_info {
+.footer_section {
     line-height: 1.5; /* Интерлиньяж для определения пространства между строками */
     color: var(--footer-text-color, #F4F4FD); /* Использование CSS переменной для цвета текста */
     letter-spacing: 0.02em; /* Отступы между буквами */
