@@ -121,13 +121,6 @@ body {
     letter-spacing: 0.02em; /* Расстояние между буквами */
     color: #2e2f42; /* Цвет текста */
 }
-.another_header {font-weight: 500; /* Жирность шрифта */
-    font-size: 20px; /* Размер шрифта */
-    line-height: 1.2; /* Интерлиньяж */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
-    color: #2e2f42; /* Цвет текста */
-}
-
 
 .privileges_list {
     list-style-type: none; /* Убираем маркеры списка */
@@ -139,6 +132,22 @@ body {
     padding: 15px; /* Внутренние отступы для пунктов */
     margin: 10px 0; /* Отступы между пунктами списка */
 }
+
+.privilege_header {
+    font-weight: 500; /* Жирность шрифта */
+    font-size: 20px; /* Размер шрифта */
+    line-height: 1.2; /* Интерлиньяж */
+    letter-spacing: 0.02em; /* Расстояние между буквами */
+    color: #2e2f42; /* Цвет текста */
+}
+
+.privilege_description {
+    font-size: 16px; /* Размер шрифта для параграфов */
+    line-height: 1.5; /* Интерлиньяж */
+    letter-spacing: 0.02em; /* Расстояние между буквами */
+    color: #434455; /* Цвет текста */
+}
+
 
 /* Стили для секции команды */
 .team_list {
