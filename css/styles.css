@@ -4,162 +4,185 @@
 
 /* Стили для шапки */
 .header_section {
-    background-color: #2e2f42; /* Фоновый цвет шапки */
-    padding: 20px; /* Отступы */
+    background-color: #2e2f42;
+    padding: 20px;
 }
 
 .logo {
-    font-family: "Raleway", sans-serif; /* Шрифт логотипа */
-    font-weight: 700; /* Жирность шрифта */
-    font-size: 18px; /* Размер шрифта */
-    line-height: 1.17; /* Интерлиньяж */
-    letter-spacing: 0.03em; /* Расстояние между буквами */
-    text-transform: uppercase; /* Заглавные буквы */
-    color: #4d5ae5; /* Цвет текста логотипа */
-    text-decoration: none; /* Убираем подчеркивание */
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
 }
 
 .logo_span {
-    color:#2e2f42; /* Цвет текста для span в логотипе */
+    color: #2e2f42;
 }
 
+/* Стили навигации */
 .nav_list {
-    list-style-type: none; /* Убираем маркеры списка */
-    padding: 0; /* Убираем отступы */
+    list-style-type: none;
+    padding: 0;
 }
 
 .nav_link {
-    font-weight: 500; /* Жирность шрифта */
-    line-height: 1.5; /* Интерлиньяж */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
-    color: #2e2f42; /* Цвет текста */
-    text-decoration: none; /* Убираем подчеркивание */
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
 }
 
 .nav_link:hover,
 .nav_link:focus {
-    color: #404bbf; /* Цвет при наведении и фокусе */
+    color: #404bbf;
 }
 
+/* Стили для контактной информации */
 .contact_info {
-    font-style: normal; /* Нормальный стиль шрифта для контактной информации */
+    font-style: normal;
 }
 
 .contact_link {
-    font-size: 16px; /* Размер шрифта для ссылок контактов */
-    line-height: 1.5; /* Интерлиньяж */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
-    color: #434455; /* Цвет текста */
-    text-decoration: none; /* Убираем подчеркивание */
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
 }
 
 .contact_link:hover,
 .contact_link:focus {
-    color: #404bbf; /* Цвет при наведении и фокусе */
+    color: #404bbf;
 }
 
+/* Основные стили */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
 
-/* Стили для главной секции */
+/* Главная секция */
 .main_section {
     background-color: #2e2f42;
     padding: 20px;
-    text-align: center; /* Центрирование текста */
+    text-align: center;
 }
 
 .main_title {
-    font-size: 56px; /* Размер заголовка */
-    line-height: 1.07; /* Интерлиньяж */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
-    color: #ffffff; /* Цвет текста заголовка */
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
 
 /* Кнопка заказа */
 .main_button {
-    background-color: #4d5ae5; /* Фоновый цвет кнопки */
-    color: #ffffff; /* Цвет текста кнопки */
-    border: none; /* Убираем границу */
-    padding: 15px 30px; /* Отступы внутри кнопки */
-    font-size: 16px; /* Размер шрифта кнопки */
-    font-weight: 500; /* Жирность шрифта */
-    line-height: 1.5; /* Интерлиньяж */
-    letter-spacing: 0.04em; /* Расстояние между буквами */
-    cursor: pointer; /* Указатель при наведении */
+    background-color: #4d5ae5;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .main_button:hover,
 .main_button:focus {
-    background-color: #404bbf; /* Цвет фона кнопки при наведении */
+    background-color: #404bbf;
 }
 
-
-/* Стили для секции других привилегий */
-.other_privileges {
-    padding: 20px;
-}
-
-.other_privileges h2 {
-    font-size: 36px; /* Размер заголовка */
-    line-height: 1.1; /* Интерлиньяж */
-    color: #2e2f42; /* Цвет заголовка */
-}
-
-/* Стили для секции привилегий */
+/* Секция привилегий */
 .custom_section {
-    background-color: #F4F4FD; /* Фоновый цвет секции */
-    padding: 20px; /* Внутренние отступы секции */
+    background-color: #F4F4FD;
+    padding: 20px;
 }
 
 .custom_header {
-    font-weight: 500; /* Жирность шрифта */
-    font-size: 20px; /* Размер шрифта */
-    line-height: 1.2; /* Интерлиньяж */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
-    color: #2e2f42; /* Цвет текста */
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .privileges_list {
-    list-style-type: none; /* Убираем маркеры списка */
-    padding: 0; /* Убираем отступы */
+    list-style-type: none;
+    padding: 0;
 }
 
 .privilege_item {
-    background-color: #FFFFFF; /* Фоновый цвет пунктов списка */
-    padding: 15px; /* Внутренние отступы для пунктов */
-    margin: 10px 0; /* Отступы между пунктами списка */
+    background-color: #FFFFFF;
+    padding: 15px;
+    margin: 10px 0;
 }
 
 .privilege_header {
-    font-weight: 500; /* Жирность шрифта */
-    font-size: 20px; /* Размер шрифта */
-    line-height: 1.2; /* Интерлиньяж */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
-    color: #2e2f42; /* Цвет текста */
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .privilege_description {
-    font-size: 16px; /* Размер шрифта для параграфов */
-    line-height: 1.5; /* Интерлиньяж */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
-    color: #434455; /* Цвет текста */
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
+/* Секция третьего раздела */
+.section-background {
+    background-color: #F4F4FD;
+}
+
+.main-heading {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.list-item {
+    background-color: #FFFFFF;
+}
+
+.item-heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.item-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
 /* Стили для секции команды */
 .team_list {
-    display: flex; /* Используем flexbox для отображения списка */
-    justify-content: space-around; /* Распределяем элементы по доступному пространству */
+    display: flex;
+    justify-content: space-around;
     padding: 20px;
-    flex-wrap: wrap; /* Переносим элементы на новую строку */
+    flex-wrap: wrap;
 }
 
 .team_list li {
-    text-align: center; /* Центрирование текста в элементах списка */
-    margin: 10px; /* Отступы вокруг элементов списка */
+    text-align: center;
+    margin: 10px;
 }
 
 /* Стили для портфолио */
@@ -168,76 +191,38 @@ body {
 }
 
 .portfolio_list {
-    display: flex; /* Используем flexbox для отображения списка */
-    justify-content: space-around; /* Распределяем элементы по доступному пространству */
-    flex-wrap: wrap; /* Переносим элементы на новую строку */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .portfolio_list li {
-    margin: 10px; /* Отступы вокруг элементов списка */
+    margin: 10px;
 }
 
-/* Стили для футера (оставляем как есть) */
+/* Стили для футера */
 .footer_section {
-    background-color: #2e2f42; /* Фоновий колір футера */
-    line-height: 1.5; /* Інтерліньяж для футера */
+    background-color: #2e2f42;
+    line-height: 1.5;
 }
 
 .footer_logo {
-    font-family: "Raleway", sans-serif; /* Шрифт логотипу */
-    font-weight: 700; /* Жирність шрифту */
-    font-size: 18px; /* Розмір шрифту */
-    line-height: 1.17; /* Інтерлиньяж */
-    letter-spacing: 0.03em; /* Відступи між літерами */
-    text-transform: uppercase; /* Заголовні літери */
-    color: #4d5ae5; /* Колір тексту логотипу */
-    text-decoration: none; /* Убираем подчеркивание */
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
 }
 
 .footer_logo_span {
-    color: #f4f4fd; /* Колір тексту для span в логотипі */
+    color: #f4f4fd;
 }
 
 .footer_description {
-    line-height: 1.5; /* Інтерліньяж для параграфу */
-    color: var(--footer-text-color, #F4F4FD); /* Використання CSS змінної для кольору тексту */
-    letter-spacing: 0.02em; /* Відступи між літерами */
-}
-
-/* Фон для секції */
-.section-background {
-    background-color: #F4F4FD;
-  }
-  
-  /* Стиль для великого заголовка */
-  .main-heading {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-  }
-  
-  /* Стиль для пунктів списку */
-  .list-item {
-    background-color: #FFFFFF;
-  }
-  
-  /* Стиль для заголовка пункту списку */
-  .item-heading {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
-  
-  /* Стиль для параграфа */
-  .item-paragraph {
-    font-size: 16px;
     line-height: 1.5;
+    color: var(--footer-text-color, #F4F4FD);
     letter-spacing: 0.02em;
-    color: #434455;
-  }
-  
+}
