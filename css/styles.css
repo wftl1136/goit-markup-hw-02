@@ -129,4 +129,38 @@ body {
 }
 
 .portfolio_list li {
-    margin
+    margin: 10px; /* Отступы вокруг элементов списка */
+}
+
+/* Стили для подвала */
+.footer_section {
+    background-color: #2e2f42; /* Фоновый цвет подвала */
+    color: #ffffff; /* Цвет текста подвала */
+    padding: 20px; /* Отступы */
+    text-align: center; /* Центрирование текста */
+}
+
+/* Новые стили для заголовков и параграфов */
+.custom-header {
+    font-size: 36px; /* Размер текста заголовка */
+    line-height: 1.11; /* Пространство между строками */
+    text-align: center; /* Выравнивание текста по центру */
+    letter-spacing: 0.02em; /* Отступы между буквами */
+    text-transform: capitalize; /* Стиль написания текста */
+    color: #2e2f42; /* Цвет текста */
+}
+
+.banking_app_header {
+    font-weight: 500; /* Жирность шрифта */
+    font-size: 20px; /* Размер шрифта заголовка */
+    line-height: 1.2; /* Пространство между строками */
+    letter-spacing: 0.02em; /* Отступы между буквами */
+    color: #2e2f42; /* Цвет текста */
+}
+
+.banking_app_desc {
+    font-size: 16px; /* Размер текста параграфа */
+    line-height: 1.5; /* Пространство между строками */
+    letter-spacing: 0.02em; /* Отступы между буквами */
+    color: #434455; /* Цвет текста */
+}
