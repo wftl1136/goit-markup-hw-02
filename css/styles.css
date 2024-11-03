@@ -151,15 +151,15 @@ body {
     
 }
 
-/* Стиль для заголовка в пункте списка */
-.item-head {
-    font-weight: 500; /* Жирность шрифта */
-    font-size: 20px; /* Размер шрифта */
-    line-height: 1.2; /* Пространство между строками */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
-    color: #2e2f42; /* Цвет текста */
-}
+.item-headings {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 
+
+}
 /* Стиль для параграфа в пункте списка */
 .item-par{
     font-size: 16px; /* Размер текста */
