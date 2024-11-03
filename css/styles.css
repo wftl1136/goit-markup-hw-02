@@ -129,13 +129,4 @@ body {
 }
 
 .portfolio_list li {
-    margin: 10px; /* Отступы вокруг элементов списка */
-}
-
-/* Стили для подвала */
-.footer_section {
-    background-color: #2e2f42; /* Фоновый цвет подвала */
-    color: #ffffff; /* Цвет текста подвала */
-    padding: 20px; /* Отступы */
-    text-align: center; /* Центрирование текста */
-}
+    margin
