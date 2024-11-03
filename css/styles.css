@@ -139,39 +139,46 @@ body {
     color: #434455;
 }
 
-/* Секция третьего раздела */
+
+/* Фон для секції */
 .section-background {
     background-color: #F4F4FD;
-}
-
-.main-heading {
+  }
+  
+  /* Стиль для головного заголовка секції */
+  .main-heading {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-}
-
-.list-item {
+  }
+  
+  /* Стиль для пунктів списку */
+  .list-item {
     background-color: #FFFFFF;
-}
-
-.item-heading {
+    margin: 10px 0; /* Отступы между пунктами списка */
+    padding: 15px; /* Внутренние отступы для пунктов */
+  }
+  
+  /* Стиль для заголовка h3 у пункті списку */
+  .item-heading {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-}
-
-.item-paragraph {
+  }
+  
+  /* Стиль для параграфа у пункті списку */
+  .item-paragraph {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
-
+  }
+  
 /* Стили для секции команды */
 .team_list {
     display: flex;
