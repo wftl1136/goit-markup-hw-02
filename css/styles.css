@@ -1,120 +1,147 @@
-body{
-    background: #fff;
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-}
-.clicker{
-    cursor: pointer;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 4%;
-    background-color: #4D5AE5;
-    font-weight: 500;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-}
-.clicker:hover{
-    background: #404BBF;
-}
-.clicker:focus{
-    background-color: #404BBF;
-}
-p{
-    
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
-}
-a{
+/* Подключение шрифтов и сброс стилей */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css');
 
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 4%;
-text-decoration: underline;
+/* Стили для шапки */
+.header_section {
+    background-color: #2e2f42;
+    padding: 20px;
 }
-a:hover{
-    color: #404BBF;
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
 }
-a:focus{
-color: #404bbf
+
+.logo_span {
+    color: #2e2f42;
 }
-.address{
+
+/* Стили навигации */
+.nav_list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav_link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+}
+
+.nav_link:hover,
+.nav_link:focus {
+    color: #404bbf;
+}
+
+/* Стили для контактной информации */
+.contact_info {
     font-style: normal;
 }
 
-.logo{
-    font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
+.contact_link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
 }
-.dark{
-    color: #2e2f42;
+
+.contact_link:hover,
+.contact_link:focus {
+    color: #404bbf;
 }
-.light{
-color: #f4f4fd;
+
+/* Основные стили */
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
 }
-.header-items{
-   
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
+
+/* Главная секция */
+.main_section {
+    background-color: #2e2f42;
+    padding: 20px;
+    text-align: center;
 }
-.header-contacts{
-    
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+
+.main_title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
-.hero{
-    background: #2e2f42;
+
+/* Кнопка заказа */
+.main_button {
+    background-color: #4d5ae5;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
 }
-.hero-title{
-   
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
+
+.main_button:hover,
+.main_button:focus {
+    background-color: #404bbf;
 }
-.information-titles{
-    
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+.custom_header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:  #2e2f42; 
 }
-.team{
-    background: #f4f4fd;
+.privilege_header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:  #2e2f42; 
 }
-.team-title{
-        text-transform: capitalize;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+.privilege_description {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
-.team-list{
-    background-color: #FFFFFF;
+/* Основные стили */
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
 }
-.team-h{
-        font-weight: 500;
+
+/* Стили для секции */
+.section-background {
+    background-color: #F4F4FD; /* Цвет фона секции */
+    padding: 20px; /* Отступы для секции */
+}
+
+/* Стиль для заголовка секции */
+.main-heading {
+    /* Размер текста */
+    font-size: 36px; /* Пробел между строками */
+    line-height: 1.11; /* Выравнивание текста */
+    letter-spacing: 0.02em; /* Отступы между буквами */
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42; /* Цвет текста */
+}
+
+.team-h {
+    font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -122,30 +149,127 @@ color: #f4f4fd;
 }
 .team-text{
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #434455 ;
+
 }
-.portfolio-title{
-        text-transform: capitalize;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+.our-portfolio {
+    font-size: 36px;
+    line-height: 1.11 ;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
-.portfolio{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+
+.icon {
+    width: 360;
 }
-.bottom{
-    background: #2e2f42;
+
+.name-icon {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2 ;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-.bottom-text{
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;
+
+.name-work {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+/* Стиль для пунктов списка */
+.our_service {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+}
+
+.list_info{
+    background-color: #FFFFFF; /* Цвет фона пунктов списка */
+    
+}
+
+.heading_info {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+
+}
+/* Стиль для параграфа в пункте списка */
+.paragraph_info{
+    font-size: 16px; /* Размер текста */
+    line-height: 1.5 ; /* Пространство между строками */
+    letter-spacing: 0.02em; /* Расстояние между буквами */
+    color: #434455; /* Цвет текста */
+}
+
+/* Стили для секции команды */
+.team_list {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.team_list li {
+    text-align: center;
+    margin: 10px;
+}
+
+/* Стили для портфолио */
+.ourportfolio_section {
+    padding: 20px;
+}
+
+.portfolio_list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio_list li {
+    margin: 10px;
+}
+
+.banking_app_header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42 ;
+}
+
+
+
+
+/* Стили для футера */
+.footer_section {
+    background-color: #2e2f42;
+    line-height: 1.5;
+}
+
+.footer_logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+.footer_logo_span {
+    color: #f4f4fd;
+}
+
+.footer_description {
+    line-height: 1.5;
+    color: var(--footer-text-color, #F4F4FD);
+    letter-spacing: 0.02em;
 }
