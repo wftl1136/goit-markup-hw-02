@@ -169,7 +169,7 @@ body {
 
 }
 
-.portfolio-header {
+.portfolio-title {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -178,7 +178,7 @@ body {
     color: #2e2f42;
 }
 
-.portfolio-designation {
+.portfolio-h {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -186,28 +186,12 @@ body {
     color: #2e2f42;
 }
 
-
-
-
-
-
-.heading_info {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+.portfolio-text {
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
-
-
+    color: #434455;
 }
-/* Стиль для параграфа в пункте списка */
-.paragraph_info{
-    font-size: 16px; /* Размер текста */
-    line-height: 1.5 ; /* Пространство между строками */
-    letter-spacing: 0.02em; /* Расстояние между буквами */
-    color: #434455; /* Цвет текста */
-}
-
 /* Стили для футера */
 .footer_section {
     background-color: #2e2f42;
