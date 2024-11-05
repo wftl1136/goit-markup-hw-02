@@ -140,6 +140,17 @@ body {
     color: #2e2f42; /* Цвет текста */
 }
 
+.team-info {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize
+}
+
+.team-header {
+    background-color: #F4F4FD
+}
 .team-h {
     font-weight: 500;
         font-size: 20px;
@@ -210,10 +221,7 @@ body {
 
 /* Стили для секции команды */
 .team_list {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    flex-wrap: wrap;
+    background-color: #FFFFFF
 }
 
 .team_list li {
