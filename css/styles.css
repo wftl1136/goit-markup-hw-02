@@ -158,6 +158,9 @@ body {
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
+.team-list {
+    background-color: #FFFFFF
+}
 .team-text{
     font-size: 16px;
     line-height: 1.5;
@@ -165,42 +168,28 @@ body {
     color:  #434455 ;
 
 }
-.our-portfolio {
+
+.portfolio-header {
     font-size: 36px;
-    line-height: 1.11 ;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: #2e2f42;
 }
 
-.icon {
-    width: 360;
-}
-
-.name-icon {
+.portfolio-designation {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2 ;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
 
-.name-work {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:#434455;
-}
-/* Стиль для пунктов списка */
-.our_service {
-    list-style-type: none; /* Убираем маркеры списка */
-    padding: 0; /* Убираем отступы */
-}
 
-.list_info{
-    background-color: #FFFFFF; /* Цвет фона пунктов списка */
-    
-}
+
+
+
 
 .heading_info {
     font-weight: 500;
@@ -218,42 +207,6 @@ body {
     letter-spacing: 0.02em; /* Расстояние между буквами */
     color: #434455; /* Цвет текста */
 }
-
-/* Стили для секции команды */
-.team_list {
-    background-color: #FFFFFF
-}
-
-.team_list li {
-    text-align: center;
-    margin: 10px;
-}
-
-/* Стили для портфолио */
-.ourportfolio_section {
-    padding: 20px;
-}
-
-.portfolio_list {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.portfolio_list li {
-    margin: 10px;
-}
-
-.banking_app_header {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42 ;
-}
-
-
-
 
 /* Стили для футера */
 .footer_section {
