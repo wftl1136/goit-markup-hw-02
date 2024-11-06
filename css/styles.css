@@ -78,7 +78,7 @@ color: #f4f4fd;
         letter-spacing: 0.02em;
         color: #434455;
 }
-/* Главная секция */
+
 .main_section {
     background-color: #2e2f42;
     text-align: center;
@@ -92,12 +92,10 @@ color: #f4f4fd;
     color: #ffffff;
 }
 
-/* Кнопка заказа */
+
 .main_button {
     background-color: #4d5ae5;
     color: #ffffff;
-    border: none;
-    padding: 15px 30px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -128,29 +126,16 @@ color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-/* Основные стили */
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
 
-/* Стили для секции */
-.section-background {
-    background-color: #F4F4FD; /* Цвет фона секции */
-    padding: 20px; /* Отступы для секции */
-}
 
-/* Стиль для заголовка секции */
-.main-heading {
-    /* Размер текста */
-    font-size: 36px; /* Пробел между строками */
-    line-height: 1.11; /* Выравнивание текста */
-    letter-spacing: 0.02em; /* Отступы между буквами */
-    text-align: center;
-    text-transform: capitalize;
-    color: #2e2f42; /* Цвет текста */
-}
+
+
 
 .team-info {
     font-size: 36px;
@@ -212,7 +197,7 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
 }
-/* Стили для футера */
+
 .footer_section {
     background-color: #2e2f42;
     line-height: 1.5;
