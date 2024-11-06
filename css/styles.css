@@ -81,8 +81,6 @@ color: #f4f4fd;
 /* Главная секция */
 .main_section {
     background-color: #2e2f42;
-    padding: 20px;
-    text-align: center;
 }
 
 .main_title {
@@ -237,3 +235,5 @@ body {
     color: var(--footer-text-color, #F4F4FD);
     letter-spacing: 0.02em;
 }
+padding: 20px;
+    text-align: center;
