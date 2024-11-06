@@ -1,72 +1,83 @@
-/* Подключение шрифтов и сброс стилей */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap');
-@import url('https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css');
-
-/* Стили для шапки */
-.header_section {
-    background-color: #2e2f42;
-    padding: 20px;
+body{
+    background: #fff;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
 }
-
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-}
-
-.logo_span {
-    color: #2e2f42;
-}
-
-/* Стили навигации */
-.nav_list {
-    list-style-type: none;
-    padding: 0;
-}
-
-.nav_link {
+.clicker{
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    background-color: #4D5AE5;
     font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-decoration: none;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }
-
-.nav_link:hover,
-.nav_link:focus {
-    color: #404bbf;
+.clicker:hover{
+    background: #404BBF;
 }
+.clicker:focus{
+    background-color: #404BBF;
+}
+p{
+    
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+a{
 
-/* Стили для контактной информации */
-.contact_info {
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 4%;
+text-decoration: underline;
+}
+a:hover{
+    color: #404BBF;
+}
+a:focus{
+color: #404bbf
+}
+.address{
     font-style: normal;
 }
 
-.contact_link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
+.logo{
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
 }
-
-.contact_link:hover,
-.contact_link:focus {
-    color: #404bbf;
+.dark{
+    color: #2e2f42;
 }
-
-/* Основные стили */
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #ffffff;
+.light{
+color: #f4f4fd;
 }
-
+.header-items{
+   
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+.header-contacts{
+    
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
 /* Главная секция */
 .main_section {
     background-color: #2e2f42;
