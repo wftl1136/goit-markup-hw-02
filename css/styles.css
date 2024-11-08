@@ -1,4 +1,12 @@
-body{
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
     background: #fff;
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -28,14 +36,7 @@ p{
         letter-spacing: 0.02em;
         color: #434455;
 }
-a{
 
-font-weight: 400;
-font-size: 12px;
-line-height: 16px;
-letter-spacing: 4%;
-text-decoration: underline;
-}
 a:hover{
     color: #404BBF;
 }
@@ -148,10 +149,6 @@ body {
 
 .team-header {
     background-color: #F4F4FD
-}
-
-.team-list {
-    background-color: #FFFFFF
 }
 
 .white-background {
